@@ -3,34 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".AActivity">
+    android:orientation="vertical"
+    tools:context=".BActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start stadard A"/>
+        android:text="start stadard A" />
 
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start singleTop A"/>
+        android:text="start singleTop A" />
 
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start singTask A"/>
+        android:text="start singTask A" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start B"/>
+        android:text="start B" />
 
 </LinearLayout>
